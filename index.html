@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechConf 2025 — Konferencë Teknologjike</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGACION -->
+  <nav>
+    <div class="nav-inner">
+      <span class="logo">⚡ TechConf 2025</span>
+      <ul>
+        <li><a href="#about">Rreth</a></li>
+        <li><a href="#schedule">Orari</a></li>
+        <li><a href="#speakers">Folësit</a></li>
+        <li><a href="#venue">Vendi</a></li>
+        <li><a href="#register" class="btn-nav">Regjistrohu</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-content">
+      <p class="tag">15–16 Nëntor 2025 · Prishtinë, Kosovë</p>
+      <h1>TechConf 2025</h1>
+      <p class="subtitle">Konferenca më e madhe teknologjike në rajon</p>
+
+      <!-- COUNTDOWN -->
+      <div class="countdown" id="countdown">
+        <div class="cd-block"><span id="days">00</span><small>Ditë</small></div>
+        <div class="cd-block"><span id="hours">00</span><small>Orë</small></div>
+        <div class="cd-block"><span id="minutes">00</span><small>Minuta</small></div>
+        <div class="cd-block"><span id="seconds">00</span><small>Sekonda</small></div>
+      </div>
+
+      <a href="#register" class="btn-hero">Regjistrohu Tani →</a>
+    </div>
+  </header>
+
+  <!-- RRETH EVENTIT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>Rreth Konferencës</h2>
+      <p>TechConf 2025 është eventi kryesor teknologjik i rajonit, që mbledh mbi 500 profesionistë, zhvillues dhe sipërmarrës nga e gjithë Ballkani. Dy ditë plotë me prezantime, workshop dhe mundësi networking.</p>
+      <div class="stats">
+        <div class="stat"><strong>500+</strong><span>Pjesëmarrës</span></div>
+        <div class="stat"><strong>20+</strong><span>Folës</span></div>
+        <div class="stat"><strong>3</strong><span>Salla</span></div>
+        <div class="stat"><strong>2</strong><span>Ditë</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORARI -->
+  <section id="schedule" class="section bg-light">
+    <div class="container">
+      <h2>Orari i Eventit</h2>
+      <div class="tabs">
+        <button class="tab active" onclick="showDay(1, this)">Dita 1 — 15 Nëntor</button>
+        <button class="tab" onclick="showDay(2, this)">Dita 2 — 16 Nëntor</button>
+      </div>
+
+      <div id="day1" class="schedule-list">
+        <div class="sched-item">
+          <span class="time">09:00</span>
+          <div><strong>Regjistrimi & Mirëseardhja</strong><p>Hyrja e pjesëmarrësve, kafe dhe networking</p></div>
+        </div>
+        <div class="sched-item">
+          <span class="time">10:00</span>
+          <div><strong>Keynote: E ardhmja e AI</strong><p>Prezantim kryesor nga Dr. Ana Krasniqi</p></div>
+        </div>
+        <div class="sched-item">
+          <span class="time">11:30</span>
+          <div><strong>Workshop: Cloud Computing</strong><p>Sesion praktik me Azure dhe AWS</p></div>
+        </div>
+        <div class="sched-item">
+          <span class="time">13:00</span>
+          <div><strong>Pushim për drekë</strong><p>Ushqim dhe networking</p></div>
+        </div>
+        <div class="sched-item">
+          <span class="time">14:00</span>
+          <div><strong>Panel: Startupet Teknologjike</strong><p>Diskutim me themelues të suksesshëm</p></div>
+        </div>
+        <div class="sched-item">
+          <span class="time">16:00</span>
+          <div><strong>Prezantime Lightning Talk</strong><p>5 prezantime të shkurtra nga komuniteti</p></div>
+        </div>
+      </div>
+
+      <div id="day2" class="schedule-list" style="display:none">
+        <div class="sched-item">
+          <span class="time">09:30</span>
+          <div><strong>Keynote: Web3 dhe Blockchain</strong><p>Prezantim nga Besnik Gashi, CTO TechHub</p></div>
+        </div>
+        <div class="sched-item">
+          <span class="time">11:00</span>
+          <div><strong>Hackathon Finale</strong><p>Prezantimi i projekteve dhe shpërndarja e çmimeve</p></div>
+        </div>
+        <div class="sched-item">
+          <span class="time">13:00</span>
+          <div><strong>Pushim për drekë</strong><p>Ushqim dhe networking</p></div>
+        </div>
+        <div class="sched-item">
+          <span class="time">14:30</span>
+          <div><strong>Workshop: Cybersecurity</strong><p>Mbrojtja e aplikacioneve moderne</p></div>
+        </div>
+        <div class="sched-item">
+          <span class="time">17:00</span>
+          <div><strong>Ceremonia Mbyllëse</strong><p>Çmimet dhe lamtumira</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOLËSIT -->
+  <section id="speakers" class="section">
+    <div class="container">
+      <h2>Folësit</h2>
+      <div class="speakers-grid">
+        <div class="speaker-card">
+          <div class="avatar">AK</div>
+          <h3>Dr. Ana Krasniqi</h3>
+          <p>AI Research Lead, Microsoft</p>
+        </div>
+        <div class="speaker-card">
+          <div class="avatar">BG</div>
+          <h3>Besnik Gashi</h3>
+          <p>CTO, TechHub Balkans</p>
+        </div>
+        <div class="speaker-card">
+          <div class="avatar">MH</div>
+          <h3>Mirela Hoxha</h3>
+          <p>Senior Developer, Google</p>
+        </div>
+        <div class="speaker-card">
+          <div class="avatar">DR</div>
+          <h3>Driton Rexhepi</h3>
+          <p>Founder, StartupKS</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VENDI -->
+  <section id="venue" class="section bg-light">
+    <div class="container">
+      <h2>Vendi i Eventit</h2>
+      <div class="venue-info">
+        <div>
+          <h3>Prishtina Innovation Centre</h3>
+          <p>📍 Rr. Bill Clinton 55, Prishtinë 10000</p>
+          <p>🚌 10 min nga qendra e qytetit</p>
+          <p>🅿️ Parking falas për pjesëmarrës</p>
+          <p>♿ Akses për persona me aftësi të kufizuara</p>
+        </div>
+        <div class="map-placeholder">
+          <span>📍 Harta<br><small>Prishtinë, Kosovë</small></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REGJISTRIM -->
+  <section id="register" class="section">
+    <div class="container">
+      <h2>Regjistrohu</h2>
+      <form class="reg-form" onsubmit="submitForm(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Emri i plotë *</label>
+            <input type="text" id="name" placeholder="Emri Mbiemri" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" placeholder="you@example.com" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="company">Kompania</label>
+            <input type="text" id="company" placeholder="Emri i kompanisë">
+          </div>
+          <div class="form-group">
+            <label for="ticket">Lloji i biletës *</label>
+            <select id="ticket" required>
+              <option value="">Zgjidh...</option>
+              <option value="standard">Standard — €50</option>
+              <option value="vip">VIP — €120</option>
+              <option value="student">Student — €20</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label style="display:flex; align-items:center; gap:8px; cursor:pointer;">
+            <input type="checkbox" id="newsletter">
+            Regjistrohu në listën tonë të postës për lajme dhe oferta
+            <span id="newsletter-badge" style="display:none; background:#4a00e0; color:white; font-size:0.75rem; padding:2px 10px; border-radius:20px; font-weight:700;">✓ Aktiv</span>
+          </label>
+        </div>
+        <button type="submit" class="btn-submit">Dërgo Regjistrimin →</button>
+      </form>
+      <div id="success-msg" class="success-msg" style="display:none">
+        ✅ Faleminderit! Regjistrimi u pranua. Kontrollo email-in tënd.
+      </div>
+      <div id="newsletter-confirm" class="success-msg" style="display:none; margin-top:0.5rem; background:#f0e6ff; color:#4a00e0;">
+        📧 U shtove në listën tonë të newsletter-it!
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section bg-light">
+    <div class="container">
+      <h2>Pyetje të Shpeshta (FAQ)</h2>
+      <div class="faq">
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">A është eventi falas? <span>+</span></button>
+          <div class="faq-a">Jo, eventi ka çmim hyrjeje. Student €20, Standard €50, VIP €120.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">Si mund të anuloj regjistrimin? <span>+</span></button>
+          <div class="faq-a">Dërgoni email në info@techconf.ks deri 7 ditë para eventit.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">A ka certifikatë pjesëmarrjeje? <span>+</span></button>
+          <div class="faq-a">Po, të gjithë pjesëmarrësit marrin certifikatë dixhitale pas eventit.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">A transmetohet online? <span>+</span></button>
+          <div class="faq-a">Keynotes transmetohen live në YouTube. Workshop-et janë vetëm për pjesëmarrës fizikë.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 TechConf Kosovo · <a href="mailto:albena.veseli@gmail.com">info@techconf.ks</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
