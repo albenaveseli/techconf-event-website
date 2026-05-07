@@ -74,18 +74,10 @@ Hap Primary endpoint URL në browser — website-i duhet të funksionojë plotë
 ### Lidhe me website-in
 Hap `script.js` dhe zëvendëso:
 ```javascript
-const LOGIC_APP_URL = "VENDOS_URL_KETU";
+const LOGIC_APP_URL = "https://techconf20251.z28.web.core.windows.net";
 ```
 me URL-in e Logic App. Ringarko `script.js` në Azure.
 
-## 👥 Ekipi
-| Emri | Detyra |
-|------|--------|
-| Albena Veseli | Azure Deployment |
-| Amela Syla | Testing & QA |
-| Anita Cacaj | Logic Apps Integration |
-| Dua Gashi | Responsive Design Testing |
-| Ardit Hyseni | Documentation |
 | Erzana Beqaj | Cross-browser Testing |
 
 ## 📄 Licenca
