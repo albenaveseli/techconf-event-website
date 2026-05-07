@@ -3,7 +3,7 @@
 // =============================================
 
 // VENDOS URL-IN E LOGIC APP KËTU (pas konfigurimit në Azure):
-const LOGIC_APP_URL = "VENDOS_URL_KETU";
+const LOGIC_APP_URL = "https://prod-05.francecentral.logic.azure.com:443/workflows/2bcacc32d75d4b7598931e07ec5e3a16/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=pg6DNLH7gclhzPuv8EvEqpRTLMdzUdW5xj5_iTBcGGE";
 
 // ---- COUNTDOWN TIMER ----
 const eventDate = new Date("2026-11-15T09:00:00");
