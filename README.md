@@ -77,8 +77,3 @@ Hap `script.js` dhe zëvendëso:
 const LOGIC_APP_URL = "https://techconf20251.z28.web.core.windows.net";
 ```
 me URL-in e Logic App. Ringarko `script.js` në Azure.
-
-| Erzana Beqaj | Cross-browser Testing |
-
-## 📄 Licenca
-Projekt akademik nga lënda Cloud Computing - FIEK,UP — Detyra 14, Static Website në Azure.
