@@ -6,7 +6,7 @@
 const LOGIC_APP_URL = "VENDOS_URL_KETU";
 
 // ---- COUNTDOWN TIMER ----
-const eventDate = new Date("2025-11-15T09:00:00");
+const eventDate = new Date("2026-11-15T09:00:00");
 
 function updateCountdown() {
   const now = new Date();
