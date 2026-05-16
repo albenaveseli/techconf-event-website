@@ -1,26 +1,26 @@
-# TechConf 2025 — Event Website
+# TechConf 2026 — Event Website
 
-Website statike për konferencën teknologjike TechConf 2025, e hostuar në Azure Storage.
+Website statike për konferencën teknologjike TechConf 2026, e hostuar në Azure Storage.
 
-## 🌐 Live Demo
-> Këtu vendosim URL e Azure pas deployment. Shembull: `https://STORAGE_ACCOUNT.z1.web.core.windows.net`
+##  Live Demo
+https://techconf20251.z28.web.core.windows.net/
 
 ## 🛠 Teknologjitë
 - HTML5, CSS3, JavaScript (Vanilla — pa framework)
 - Azure Storage — Static Website Hosting
 - Azure Logic Apps — Mailing list / Newsletter signup (opsional)
 
-## ✨ Karakteristikat
-- ⏱ **Countdown timer** në kohë reale (ditë / orë / minuta / sekonda)
-- 📅 **Orar interaktiv** me tabs për Ditën 1 dhe Ditën 2
-- 🎤 **Seksioni i folësve** me 4 folës dhe rolet e tyre
-- 📍 **Informacion për vendin** (adresa, parking, akses)
-- 📝 **Formë regjistrimi** me validim dhe 3 lloje biletash (Student / Standard / VIP)
-- ❓ **FAQ accordion** me 4 pyetje të shpeshta
-- 📧 **Newsletter signup** i lidhur me Azure Logic Apps
-- 📱 **Dizajn responsiv** për mobile dhe tablet
+##  Karakteristikat
+-  **Countdown timer** në kohë reale (ditë / orë / minuta / sekonda)
+-  **Orar interaktiv** me tabs për Ditën 1 dhe Ditën 2
+-  **Seksioni i folësve** me 4 folës dhe rolet e tyre
+-  **Informacion për vendin** (adresa, parking, akses)
+-  **Formë regjistrimi** me validim dhe 3 lloje biletash (Student / Standard / VIP)
+-  **FAQ accordion** me 4 pyetje të shpeshta
+-  **Newsletter signup** i lidhur me Azure Logic Apps
+-  **Dizajn responsiv** për mobile dhe tablet
 
-## 📁 Struktura e skedarëve
+##  Struktura e skedarëve
 ```
 event-website/
 ├── index.html    ← Faqja e vetme (single-page)
@@ -29,7 +29,7 @@ event-website/
 └── README.md
 ```
 
-## 🚀 Deployment në Azure Storage
+##  Deployment në Azure Storage
 
 ### Hapi 1: Krijo Storage Account
 1. Shko te [portal.azure.com](https://portal.azure.com)
@@ -52,7 +52,7 @@ event-website/
 ### Hapi 4: Testo
 Hap Primary endpoint URL në browser — website-i duhet të funksionojë plotësisht.
 
-## 📧 Konfigurimi i Azure Logic Apps (Opsional)
+## 📧Konfigurimi i Azure Logic Apps (Opsional)
 
 ### Krijo Logic App
 1. **Create a resource** → "Logic App"
